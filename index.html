@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="shortcut icon" href="https://static.thenounproject.com/png/3202074-200.png" type="image/x-icon">
+
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/util.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <div class="container d-flex h-center v-center">
+        <div class="box-container">
+            <!-- top section of text and 2 lines -->
+            <div class="d-flex h-center v-center heading w-330 my-20">
+                <span class="line"></span>
+                <span class="title">Bundle & Save</span>
+                <span class="line"></span>
+            </div>
+
+            <!-- start of 3 box -->
+
+            <div id="box1" onclick="toggleSelect(this.id)" class="box w-330">
+                <div class="d-flex v-center">
+                    <div class="left">
+                        <div class="input-container">
+                            <input type="radio" name="plan">
+                        </div>
+                    </div>
+                    <div class="right d-flex v-center space-between">
+                        <p>
+                            <span class="pair">1 Pair</span>
+                            <br />
+                            <span class="dkk">DKK 195.00</span>
+                        </p>
+                        <p class="text-end percent">
+                            50% OFF
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex px-20 toggleContent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    #1
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    #2
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="box2" onclick="toggleSelect(this.id)" class="box w-330">
+                <div class="d-flex v-center">
+                    <div class="left">
+                        <div class="input-container">
+                            <input type="radio" name="plan">
+                        </div>
+                    </div>
+                    <div class="right d-flex v-bottom space-between">
+                        <p>
+                            <span class="pair">2 Pair</span>
+                            <br />
+                            <span class="dkk">DKK 345.00</span>
+                        </p>
+                        <p class="f-10 line-through">DKK 195.00</p>
+                        <p class="f-12 text-end most-popular">
+                            <span class="text-1 ">Most Popular</span>
+                            <br />
+                            50% OFF
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex px-20 toggleContent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    #1
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    #2
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="box3" onclick="toggleSelect( this.id)" class="box w-330">
+                <div class="d-flex v-center">
+                    <div class="left">
+                        <div class="input-container">
+                            <input type="radio" name="plan">
+                        </div>
+                    </div>
+                    <div class="right d-flex v-center space-between">
+                        <p>
+                            <span class="pair">3 Pair</span>
+                            <br />
+                            <span class="dkk">DKK 528.00</span>
+                        </p>
+                        <p class="text-end f-14 percent">
+
+                            50% OFF
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex px-20 toggleContent">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Size</th>
+                                <th>Color</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    #1
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    #2
+                                </td>
+                                <td class="select">
+                                    <select>
+                                        <option>S</option>
+                                        <option>M</option>
+                                    </select>
+                                </td>
+                                <td class="select">
+                                    <select>
+
+                                        <option>Colour</option>
+                                        <option>Colour2</option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- end of 3 box -->
+
+            <!--bottom message section-->
+            <div class="summary d-flex space-between my-20 w-330">
+                <p class="text-2 f-14 dkk">Free 2 Day Shipping</p>
+                <p class="dkk f-14">Total : DKK 360.00</p>
+            </div>
+
+            <!-- add to card button section -->
+            <div class="d-flex space-between w-330">
+                <button class="add-to-cart" type="button"> + Add to Cart</button>
+            </div>
+
+            <!-- power by -->
+            <div class="copy-right mt-5">
+                <p class="text-end f-12"> &copy; Powered by Pumper</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

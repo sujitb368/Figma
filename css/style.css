@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/metropolis');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 50rem;
+    min-height: 100vh;
+    margin: auto;
+}
+
+/* heading style */
+.heading .title {
+    display: inline-block;
+    width: 44%;
+   color: var(--color1);
+   margin-left: 5px;
+   margin-right: 5px;
+   font-size: 18px;
+   text-align: center;
+   font-family: 'Inter', sans-serif;
+   font-weight: 500;
+
+}
+.heading .line{
+    display: inline-block;
+    height: 2px;
+    background-color: #C8C8C8;
+    width: 27%;
+}
+
+/* box style */
+.box{
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+#box2{
+
+    font-family: 'Inter', sans-serif;
+}
+
+#box1, #box3{
+    font-family: 'MetropolisNF', sans-serif;
+}
+#box1 .dkk, #box3 .dkk {
+    font-weight: 600;
+}
+
+.left{
+    width: 14%;
+}
+
+.left input{
+    display: block;
+    margin: auto;
+}
+
+.right{
+    width: 86%;
+}
+
+.percent{
+    font-weight: 500;
+    font-size: 14.5px;
+}
+
+.box:hover{
+    background-color: #f5fbf9;
+    border-color: var(--color1);
+}
+
+.pair{
+    font-weight: 400;
+    font-size: 14.5px;
+}
+
+.dkk{
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.most-popular{
+    font-weight: 600;
+}
+
+.active{
+    background-color: #f5fbf9;
+    border-color: var(--color1);
+}
+
+/* 
+style hidable content 
+shown on click 
+*/
+.toggleContent {
+    display: none;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    margin-top: 5px;
+}
+
+thead th{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+}
+
+tbody .select{
+    width : 92px
+}
+
+.select select{
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    background-color: #fff;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid #D9D9D9;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8"><path fill="%23000" d="M6 8L0 0h12z"/></svg>') no-repeat right 8px center;
+    background-size: 12px 8px;
+    padding-right: 30px; /* Adjust the padding as needed */
+}
+
+.summary{
+    font-family: 'Inter', sans-serif;
+}
+/* add-to-cart */
+.add-to-cart{
+    width: 100%;
+    background-color: var(--color1);
+    color: var(--white);
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+/* copy-right */
+.copy-right{
+    font-style: italic;
+    font-family: 'Inter', sans-serif;
+}

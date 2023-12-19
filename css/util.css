@@ -1,0 +1,118 @@
+:root{
+    --color1:#007f61;
+    --color2:#8fc6b9;
+    --color3:#f5fbf9;
+    --white:#fff
+}
+
+.text-1{
+    color: var(--color1);
+}
+.text-2{
+    color: var(--color2);
+}
+.text-3{
+    color: var(--color3);
+}
+.text-end{
+    text-align: end;
+}
+.d-flex{
+    display: flex;
+}
+.w-330{
+    min-width: 330px;
+
+}
+
+.h-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.h-center{
+    justify-content: center;
+}
+.v-center{
+    align-items: center;
+}
+.v-bottom{
+    align-items: end;
+}
+
+.input-container{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-left: 6px;
+}
+.input-container-border{
+    border: 2px solid var(--color1);
+}
+
+input[type="radio"]{
+    appearance: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    border: 1px solid #999;
+    transition: 0.2s all linear;
+    background-clip: padding-box;
+    position: relative;
+    
+}
+
+input[type="radio"]:checked {
+    /* Override the background and border color when checked */
+    background-color: var(--color1);
+    border:0px solid var(--color1)
+  }
+.mt-5{
+    margin-top: 5px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.my-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.px-20{
+    padding-left: 20px ;
+    padding-right: 20px ;
+}
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    color: #9F9F9F;
+}
+
+.f-10{
+    font-size: 10px;
+}
+.f-12{
+    font-size: 12px;
+}
+.f-14{
+    font-size: 14px !important;
+}
+
+.show{
+    display: block !important;
+}
